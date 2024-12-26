@@ -201,7 +201,7 @@ const blogs: Record<number, Blog> = {
           <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             Here&apos;s what you&apos;ll need to make this irresistible Oreo cheesecake:
           </p>
-          <ul class="list-disc pl-4 sm:pl-6 md:pl-8 text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <ul class="list-disc pl-4 sm:pl-6 md:pl-8 text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             <li>Oreos</li>
             <li>Butter</li>
             <li>Cream Cheese</li>
@@ -320,7 +320,7 @@ const blogs: Record<number, Blog> = {
           <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#FF6363] mb-6 mt-10">
             Helpful Tips
           </h3>
-          <ul class="list-disc pl-4 sm:pl-6 md:pl-8 text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <ul class="list-disc pl-4 sm:pl-6 md:pl-8 text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             <li>If you are using butter instead of shortening, use 6 tablespoons of butter. Shortening is preferred as it maintains the pure Oreo flavor in the crust.</li>
           </ul>
       
@@ -335,7 +335,7 @@ const blogs: Record<number, Blog> = {
           <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#FF6363] mb-6 mt-10">
             Storing Tips
           </h3>
-          <ul class="list-disc pl-4 sm:pl-6 md:pl-8 text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <ul class="list-disc pl-4 sm:pl-6 md:pl-8 text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             <li>Keep the cheesecake covered with plastic wrap in the fridge for up to 5 days.</li>
           </ul>`
     },
