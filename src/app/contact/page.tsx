@@ -3,11 +3,11 @@
 export default function Contact() {
     return (
         <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-            <div className="max-w-4xl w-full bg-blue-200 shadow-lg rounded-lg p-8 border-2 ">
-                <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">Contact Us</h2>
+            <div className="max-w-4xl w-full bg-blue-200 shadow-lg rounded-lg p-8 border-2">
+                <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">Contact Us</h2>
                 
                 <div className="text-center mb-8">
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 text-lg">
                         We do love to hear from you! Please fill out the form below and we will get back to you as soon as possible.
                     </p>
                 </div>
@@ -57,8 +57,8 @@ export default function Contact() {
                 </form>
 
                 <div className="text-center mt-6">
-                    <p className="text-gray-600">Or reach us at:</p>
-                    <p className="text-blue-500 mt-2">support@myblog.com</p>
+                    <p className="text-gray-600 text-lg">Or reach us at:</p>
+                    <p className="text-blue-500 mt-2 text-lg">support@myblog.com</p>
                 </div>
             </div>
         </div>

@@ -47,7 +47,7 @@ export default function Homepage() {
     className="w-full h-[250px] object-cover rounded-t-lg"
   />
   <div className="p-4 sm:p-6 flex flex-col h-full">
-    <h2 className="text-xl sm:text-2xl font-semibold text-blue-600 transition-colors duration-300 hover:text-white">
+    <h2 className="text-xl sm:text-2xl  text-blue-600 transition-colors duration-300 hover:text-white">
       New York-Style Oreo Cheesecake
     </h2>
     <p className="mt-2 text-sm sm:text-base text-gray-600 flex-grow transition-colors duration-300 hover:text-white">
