@@ -2,8 +2,8 @@
 
 export default function Contact() {
     return (
-        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-            <div className="max-w-4xl w-full bg-blue-200 shadow-lg rounded-lg p-8 border-2">
+        <div className="min-h-screen bg-gray-50 flex items-center justify-center mt-16"> {/* Increased margin-top for more space from navbar */}
+            <div className="max-w-2xl w-full bg-blue-200 shadow-lg rounded-lg p-4 border-2"> {/* Reduced max-width to make the div smaller, and reduced padding */}
                 <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">Contact Us</h2>
                 
                 <div className="text-center mb-8">
