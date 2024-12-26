@@ -16,7 +16,7 @@ export default function Homepage() {
       </h1>
 
     {/* Card Container */}
-<div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 w-full max-w-screen-md">
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 w-full max-w-screen-lg">
 
 {/* Card 1 */}
 <Link href="/blog/1" className="hover:bg-black relative bg-white border-4 border-blue-500 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl overflow-hidden h-[400px]">

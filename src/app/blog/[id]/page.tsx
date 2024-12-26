@@ -167,13 +167,10 @@ const blogs: Record<number, Blog> = {
       // Other blog entries remain unchanged
       2: {
         title: "New York-Style Oreo Cheesecake",
-        description: "The New York Style Oreo Cheesecake is an absolute treat. It's creamy, thick, and embodies everything you expect from a perfect cheesecake.",
+        description: "The New York-Style Oreo Cheesecake is an absolute treat! It is creamy, thick, and embodies everything you had expect from a perfect cheesecake. The addition of cookies and cream takes the flavor to the next level, with each indulgent bite being more satisfying than the last. While this Oreo cheesecake looks sophisticated, it is surprisingly simple to prepare!",
         image: "/cakeimage1.jpg",
         additionalContent: `
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8"> 
-            The New York-Style Oreo Cheesecake is an absolute treat! It is creamy, thick, and embodies everything you&apos;d expect from a perfect cheesecake. The addition of cookies and cream takes the flavor to the next level, with each indulgent bite being more satisfying than the last. While this Oreo cheesecake looks sophisticated, it&apos;s surprisingly simple to prepare!
-          </p>
-      
+        
           <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-[#dd656f] mb-12">
             Why This New York Oreo Cheesecake is a Must-Try
           </h2>
@@ -461,7 +458,7 @@ export default function BlogPage({ params }: Params) {
       <h1 className="text-3xl font-bold mt-10 text-blue-600 text-center">
         {blog.title}
       </h1>
-      <p className="mt-8 text-lg text-gray-900">{blog.description}</p>
+      <p className="mt-8 text-xl text-gray-900">{blog.description}</p>
       <div
         className="mt-4 text-gray-900 text-base"
         dangerouslySetInnerHTML={{ __html: blog.additionalContent }}
