@@ -182,8 +182,8 @@ const blogs: Record<number, Blog> = {
             height={680}
             className="w-full h-auto mb-8 rounded-lg"
           />
-      
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-10 mt-10">
+          
+          <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-10 mt-10">
             <strong className="text-fuchsia-500">New York-Style Flavor:</strong> Oreo is featured in every layer crust, filling, and topping—ensuring a bold, cookies-and-cream taste in every bite!
           </p>
       
@@ -198,7 +198,7 @@ const blogs: Record<number, Blog> = {
           <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-[#FF6363] mb-12 mt-12">
             Key Ingredients
           </h2>
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             Here&apos;s what you&apos;ll need to make this irresistible Oreo cheesecake:
           </p>
           <ul class="list-disc pl-4 sm:pl-6 md:pl-8 text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
@@ -223,14 +223,14 @@ const blogs: Record<number, Blog> = {
           <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-[#FF6363] mb-12 mt-12">
             How to Make an Oreo Cheesecake
           </h2>
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             This delicious Oreo cheesecake is simple to prepare, taking only about 15 minutes of active time. However, it requires a few hours of baking and chilling, so make sure to plan ahead if you want it ready for a special occasion!
           </p>
       
           <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#FF6363] mb-10 mt-10">
             Preparing the Pan
           </h3>
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             Preheat your oven and prepare a 9-inch springform pan by placing a round piece of parchment paper at the bottom. Grease the sides with butter or shortening, then wrap the outside of the pan with two layers of heavy-duty foil.
           </p>
       
@@ -245,7 +245,7 @@ const blogs: Record<number, Blog> = {
           <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#FF6363] mb-6 mt-12">
             Making the Oreo Crust
           </h3>
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             <strong>Crush the Oreos:</strong> Place the Oreos in a food processor and pulse until finely ground. With the processor on low speed, gradually add melted shortening until the mixture is evenly combined. Press the Oreo mixture into the bottom of the prepared pan, slightly covering the sides. Bake the crust in the oven for about 10 minutes.
           </p>
       
@@ -260,7 +260,7 @@ const blogs: Record<number, Blog> = {
           <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#FF6363] mb-6 mt-10">
             Preparing the Filling
           </h3>
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             <strong>Make the Filling:</strong> In a large mixing bowl use an electric hand mixer to blend the cream cheese and sugar on medium speed until smooth and creamy. Add in sour cream, flour, and vanilla, and mix until smooth. Add the egg yolks one at a time, then gently fold in the crushed Oreos.
           </p>
       
@@ -275,7 +275,7 @@ const blogs: Record<number, Blog> = {
           <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#FF6363] mb-6 mt-10">
             Assembling the Cheesecake
           </h3>
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             <strong>Layering:</strong> Pour one-third of the Oreo filling into the baked crust and spread it evenly. Arrange whole Oreos in a single layer on top of the filling. Then pour the remaining filling over the Oreos and smooth the top.
           </p>
       
@@ -290,7 +290,7 @@ const blogs: Record<number, Blog> = {
           <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#FF6363] mb-6 mt-10">
             Chilling the Cheesecake
           </h3>
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             <strong>Cool & Chill:</strong> After removing the cheesecake from the oven let it cool to room temperature. Wrap it in plastic wrap and refrigerate for at least 4 hours or overnight to firm up before serving.
           </p>
       
@@ -305,7 +305,7 @@ const blogs: Record<number, Blog> = {
           <h3 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#FF6363] mb-6 mt-10">
             Decorating the Cheesecake
           </h3>
-          <p class="text-sm sm:text-lg md:text-xl lg:text-2xl text-[#1b1818] mb-8">
+          <p class="text-sm sm:text-lg md:text-xl lg:text-xl text-[#1b1818] mb-8">
             <strong>Add Toppings:</strong> Before serving, top the cheesecake with whipped cream and sprinkle crushed Oreos, or add mini Oreos for extra flair.
           </p>
       
