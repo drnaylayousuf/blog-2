@@ -22,7 +22,7 @@ const Navbar = () => {
             {/* Centered "My Blog" title */}
             <div className="flex justify-center flex-1">
                 <h1 className="text-2xl sm:text-3xl font-signature ml-2">
-                    <Link href="/" className="text-blue-600 hover:text-gray-500 font-semibold link-underline link-underline-black ">My Blog</Link>
+                    <Link href="/" className="text-blue-600 hover:text-gray-500  link-underline link-underline-black ">My Blog</Link>
                 </h1>
             </div>
 
@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className="flex-1 md:flex-none">
                 <ul className="hidden md:flex">
                     {links.map(({ name, href }) => (
-                        <li key={name} className=" nav-links px-4 cursor-pointer capitalize  text-xl text-blue-600 hover:scale-105 hover:text-black duration-200">
+                        <li key={name} className=" nav-links px-4 cursor-pointer capitalize  text-blue-600 hover:scale-105 hover:text-black duration-200">
                             <Link href={href}>{name}</Link>
                         </li>
                     ))}
